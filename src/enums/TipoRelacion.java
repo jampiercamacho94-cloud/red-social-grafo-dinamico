@@ -1,13 +1,10 @@
 package enums;
 
 /**
- * Tipo de relacion entre dos usuarios.
- * AMISTAD: no dirigida (funciona en ambos sentidos).
- * SEGUIR: dirigida (funciona en un solo sentido).
- *
+ * Tipos de relacion entre usuarios de la red.
  * Responsable: Luis Silva
  */
 public enum TipoRelacion {
-    AMISTAD,
-    SEGUIR
+    AMISTAD, // no dirigida: se guarda en los dos usuarios (Ana - Beto)
+    SEGUIR   // dirigida: solo en el que sigue (Dani -> Ana)
 }
